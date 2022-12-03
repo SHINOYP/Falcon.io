@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="font-lato">
+    <div class="relative ">
+        <div class="absolute  bg-gradient-to-b from-black to-transparent inset-0 opacity-60 z-10 hidden md:block"
+        style="bottom:-55px;"></div>
+        <header class=" flex justify-between  relative z-20  mx-auto px-4 py-0 rounded"
+                    style="max-width:1200px ;">
+            
+                <div class="flex justify-center items-center py-3  " >
+                    <img src="./img/logo.svg"  class="h-12" alt="" style="margin-right: 40px;" >
+                    <nav class="hidden md:inline">
+                        <a href="https://tachiyomi.org/" class="text-white py-7 px-5  "  >Manga</a>
+                        <a href="https://zoro.to/" class="text-white py-7 px-5 " >Anime</a>
+                        <a href="" class="text-white py-7 px-5 " >blog</a>
+                        <a href="" class="text-white py-7 px-5 " >form</a>  
+                    </nav>          
+                </div>
+              
+                <div class="flex items-center "> 
+                    <a href="" class="text-white py-7 px-5 hidden md:flex" style="margin-right:15px ;">Login</a>
+                    <button class=" hidden md:flex bg-brand-teal text-white border-none rounded-full py-3 px-5 font-bold text-sm bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  >SIGN UP</button>
+                            <div class="md:hidden">
+                            <input type="checkbox" id="navi-toggle" class="checkbox" />
+                            <label for="navi-toggle" class="button">
+                                <span class="icon">&nbsp;</span>
+                            </label>
+                            <div class="background">&nbsp;</div>
+
+                            <!-- nav -->
+                            <nav class="nav  ">
+                                <ul class="list">
+                                <li class="item "> <a class="link border-b py-3 " href="https://tachiyomi.org/"> Manga </a> </li>
+                                <li class="item"> <a class="link border-b py-3" href="https://zoro.to/"> Anime </a> </li>
+                                <li class="item"> <a class="link border-b py-3" href="https://zoro.to/" > Forums </a> </li>
+                                <li class="item"> <a class="link border-b py-3"> Blogs</a> </li>
+                                <li class="item"> <a class="link border-b py-3"> Movie </a> </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class=" md:hidden w-8 h-8 text-white ">
+                        <path fill-rule="evenodd" d="M3 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.5A.75.75 0 013.75 9h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+        </header>
+    </div>
+    <section class="relative mx-auto "   >
+        <!-- background fade-->
+        <div class="absolute" style=" top: -80px;">
+            <div class="bg-black inset-0 absolute z-10 opacity-60 md:hidden"> </div>
+            
+                <video 
+                    loop="loop" 
+                    autoplay="autoplay"
+                    playsinline="" 
+                    muted="muted" 
+                    class=" videobg "
+                    style=" top: -80px;   object-fit: cover; "
+                    src="https://mylivewallpapers.com/wp-content/uploads/Anime/PREVIEW-Kyojuro-Rengoku-Fire.mp4">
+                </video>
+            
+        </div>
+        <div style="  max-width: 1200px; " class="relative z-10 mx-auto w-full md:pt-32 px-5 py-10 ">
+            <h1  class="  p-0 text-36px md:text-60px font-bold leading-none text-shadow-red ">RENGOKU <br><Span class="text-brand-red">GYOJIRO</Span> </h1>
+            <p style="max-width: 549px;  " class="  md:text-20px text-white text-sm">Kyojuro Rengoku (煉れん獄ごく 杏きょう寿じゅ郎ろう Rengoku Kyōjurō?)
+                 was a major supporting character of Demon Slayer: 
+                Kimetsu no Yaiba and the deuteragonist of the Mugen 
+                Train Arc. He was a Demon Slayer of the Demon Slayer Corps and
+                the late Flame Hashira (炎えん柱ばしら En Bashira?).[1]</p>
+                <form action="https://hero.fandom.com/wiki/Kyojuro_Rengoku">
+                    <input type="submit" class=" hover:bg-orange-400 bg-white my-2 mr-2 p-0 border-none md:w-auto w-full md:p-2 mt-6 md:mt-2" style="border-radius: 5px;" value="Read more" />
+                </form> 
+        </div>
+    </section>
+    <!--stast section-->
+    <section class="flex relative mx-auto justify-center md:mt-5 mt-20 " >
+        <div class="md:flex md:items-center  bg-gray-800 z-10 rounded md:w-1/2 md:h-32 w-full mx-5  h-80 "  >
+            <div  class="  text-center  border-b  py-3 md:border-r md:border-b-0 md:w-1/3 md:pb-20  h-1/3">
+                <h2 class=" text-purple-300 font-bold text-4xl">4</h2>
+                <p class="text-gray-300 text-lg">Visites</p>
+
+            </div >
+            <div  class=" text-center   border-b py-3 md:border-r md:border-b-0 md:w-1/3 md:pb-20  h-1/3 " >
+                <h2  class="text-purple-300 font-bold text-4xl">400</h2>
+                <p class="text-gray-300 text-lg">Followers</p>
+
+            </div>
+            <div  class=" text-center  py-3 md:w-1/3 md:pb-20  h-1/3">
+                <h2  class="text-purple-300 font-bold text-4xl">1</h2>
+                <p class="text-gray-300 text-lg">Projects</p>
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+
+        
+</body>
+</html>
